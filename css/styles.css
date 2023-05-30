@@ -60,10 +60,6 @@ a {
   padding: 94px 0;
 }
 
-.filter-buttons {
-  margin-bottom: 50px;
-}
-
 .container {
   max-width: 1200px;
   margin: auto;
@@ -412,8 +408,8 @@ ul li p {
   cursor: pointer;
 }
 
- svg:focus,
- svg:hover {
+svg:focus,
+svg:hover {
   color: var(--third-clr);
   cursor: pointer;
 }
@@ -605,31 +601,31 @@ form {
 }
 
 .subscribe label {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
 .subscribe input {
-width: 358px;
-height: 50px;
-left: 815px;
-top: 2787px;
-border: 1px solid rgba(255, 255, 255, 0.3);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
-background-color: rgba(255, 255, 255, 0.1);
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
+  width: 358px;
+  height: 50px;
+  left: 815px;
+  top: 2787px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .subscribe-btn {
@@ -640,22 +636,21 @@ line-height: 20px;
   background: var(--third-clr);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 30px;
-display: flex;
-align-items: center;
-justify-content: center;
-letter-spacing: 0.06em;
-color: var(--primary-clr);
-cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-clr);
+  cursor: pointer;
 }
 
 .subscribe-btn:focus,
 .subscribe-btn:hover {
-  background-color:#358fd9;
+  background-color: #358fd9;
   transition: var(--transition);
 }
-
