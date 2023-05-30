@@ -1,0 +1,77 @@
+.request-button {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  background-color: var(--third-clr);
+  color: var(--primary-clr);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.request-button:hover,
+.request-button:focus {
+  background: var(--primary-clr);
+  color: #000000;
+}
+
+.subscribe-btn {
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  margin-top: 37px;
+  background: var(--third-clr);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-clr);
+  cursor: pointer;
+}
+
+.subscribe-btn:focus,
+.subscribe-btn:hover {
+  background-color: #358fd9;
+  transition: var(--transition);
+}
+
+/* Portofolio */
+
+.filter-buttons {
+  margin-bottom: 50px;
+}
+
+.filter-section-button button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-section-button button:hover,
+.filter-section-button button:focus {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: var(--primary-clr);
+}
+
+.active-item-filter {
+  background-color: var(--third-clr);
+}
