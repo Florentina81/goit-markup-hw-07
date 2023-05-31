@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
-@import "../sass/base/variables";
-@import "../sass/base/buttons";
+@import "../sass/utils/variables";
+@import "../sass/utils/buttons";
 
 body {
   font-family: var(--text-font-family);
