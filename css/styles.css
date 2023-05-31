@@ -49,7 +49,7 @@ ul {
   list-style-type: none;
 }
 
-a {
+.link {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -77,7 +77,7 @@ a {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.global-header a {
+.global-header .link {
   color: var(--secondary-clr);
   font-weight: 500;
   font-size: 14px;
@@ -163,7 +163,7 @@ a {
   color: var(--third-clr);
 }
 
-.global-header a.mail {
+.global-header .link .mail {
   position: relative;
   display: flex;
   align-items: center;
@@ -173,14 +173,14 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.global-header a.mail:hover,
-.global-header a.mail:focus {
+.global-header .link .mail:hover,
+.global-header .link .mail:focus {
   color: var(--third-clr);
   outline: 0;
 }
 
-.global-header a.mail:hover::after,
-.global-header a.mail:focus::after {
+.global-header .link .mail:hover::after,
+.global-header .link .mail:focus::after {
   content: "";
   position: absolute;
   height: 4px;
@@ -191,7 +191,7 @@ a {
   border-radius: 2px;
 }
 
-.global-header a.phone-number {
+.global-header .link .phone-number {
   position: relative;
   display: flex;
   color: var(--link-text-clr);
@@ -203,13 +203,13 @@ a {
   outline: 0;
 }
 
-.global-header a.phone-number:hover,
-.global-header a.phone-number:focus {
+.global-header .link .phone-number:hover,
+.global-header .link .phone-number:focus {
   color: var(--third-clr);
 }
 
-.global-header a.phone-number:hover::after,
-.global-header a.phone-number:focus::after {
+.global-header .link.phone-number:hover::after,
+.global-header .link .phone-number:focus::after {
   content: "";
   position: absolute;
   height: 4px;
@@ -426,7 +426,7 @@ svg:hover {
   padding: 0;
 }
 
-.global-footer a {
+.global-footer .link {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
@@ -443,8 +443,8 @@ svg:hover {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-address a:hover,
-address a:focus {
+address .link :hover,
+address .link :focus {
   color: var(--primary-clr);
 }
 
