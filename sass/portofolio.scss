@@ -459,26 +459,6 @@ address a:focus {
   height: 100%;
 }
 
-.close-btn {
-  font-size: 20px;
-  outline: none;
-  cursor: pointer;
-  color: #000;
-  background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  position: absolute;
-  top: 8px;
-  right: 8px;
-}
-.close-btn:hover,
-.close-btn:focus {
-  background: #000;
-  color: #fff;
-}
-
 .is-hidden {
   opacity: 0;
   visibility: hidden;

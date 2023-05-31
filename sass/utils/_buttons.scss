@@ -17,7 +17,7 @@
 .request-button:hover,
 .request-button:focus {
   background: var(--primary-clr);
-  color: #000000;
+  color: var(--text-clr--);
 }
 
 .subscribe-btn {
@@ -65,7 +65,7 @@
 
 .filter-section-button button:hover,
 .filter-section-button button:focus {
-  background: #2196f3;
+  background: var(--third-clr);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -74,4 +74,24 @@
 
 .active-item-filter {
   background-color: var(--third-clr);
+}
+
+.close-btn {
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+  color: var(--text-clr--);
+  background: var(--primary-clr);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.close-btn:hover,
+.close-btn:focus {
+  background: var(--text-clr--);
+  color: var(--primary-clr);
 }
