@@ -1,0 +1,38 @@
+ul {
+  list-style-type: none;
+}
+
+a {
+  transition: var(--transition--);
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.section {
+  margin: auto;
+  width: 1600px;
+  padding: 94px 0;
+}
+
+h2 {
+  color: var(--secondary-clr);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.third-section-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.third-section {
+  padding-top: 0;
+}

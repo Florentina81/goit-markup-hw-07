@@ -1,0 +1,48 @@
+ul {
+  list-style-type: none;
+}
+
+a {
+  transition: var(--transition--);
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.section {
+  margin: auto;
+  width: 1600px;
+  padding: 94px 0;
+}
+
+body {
+  font-family: var(--text-font-family);
+}
+
+h1 {
+  color: var(--primary-clr);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.main-title-backround .first-section {
+  background: var(--dark-gray-section-clr);
+  text-align: center;
+  min-height: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../img/title-background.jpg");
+  background-repeat: no-repeat;
+}

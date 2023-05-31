@@ -1,0 +1,121 @@
+ul {
+  list-style-type: none;
+}
+
+a {
+  transition: var(--transition--);
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.section {
+  margin: auto;
+  width: 1600px;
+  padding: 94px 0;
+}
+
+.global-footer .home-button {
+  color: var(--third-clr);
+  font-family: Raleway, sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+}
+.global-footer .home-button .button {
+  color: var(--primary-clr);
+}
+
+.global-footer .footer-flex .button:hover,
+.global-footer .footer-flex .button:focus {
+  color: var(--third-clr);
+  transition: var(--transition--);
+}
+.footer-flex {
+  display: flex;
+  align-items: center;
+  height: 251px;
+  gap: 107px;
+}
+
+.global-footer {
+  background: var(--dark-gray-section-clr);
+  padding: 0;
+}
+
+.global-footer a {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 0.8;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+address a:hover,
+address a:focus {
+  color: var(--primary-clr);
+}
+
+.global-footer .main-address {
+  color: var(--primary-clr);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.main-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 28px;
+}
+.corection-link {
+  margin-top: 12px;
+}
+.corection {
+  margin: 0;
+}
+
+.global-footer .footer-flex .last-class {
+  color: var(--primary-clr);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.global-footer .footer-icons-list .footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  background-color: #ffffff1a;
+  border-radius: 50%;
+  fill: var(--primary-clr);
+}
+
+.footer-icons-list .footer-icons svg {
+  width: 20px;
+  height: 20px;
+}
+.footer-icons-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.global-footer .footer-icons-list .footer-icons:hover,
+.global-footer .footer-icons-list .footer-icons:focus {
+  color: var(--primary-clr);
+  background-color: var(--third-clr);
+  border-radius: 50%;
+  outline: 0;
+}

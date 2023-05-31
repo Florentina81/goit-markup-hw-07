@@ -1,3 +1,23 @@
+ul {
+  list-style-type: none;
+}
+
+a {
+  transition: var(--transition--);
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.section {
+  margin: auto;
+  width: 1600px;
+  padding: 94px 0;
+}
+
 .modal {
   position: fixed;
   top: 0;
