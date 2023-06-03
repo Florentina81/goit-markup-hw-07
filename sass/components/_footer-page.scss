@@ -1,23 +1,3 @@
-ul {
-  list-style-type: none;
-}
-
-a {
-  transition: var(--transition--);
-}
-
-.container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 15px;
-}
-
-.section {
-  margin: auto;
-  width: 1600px;
-  padding: 28px 0;
-}
-
 .global-footer .home-button {
   color: var(--third-clr);
   font-family: Raleway, sans-serif;
@@ -118,4 +98,41 @@ address a:focus {
   background-color: var(--third-clr);
   border-radius: 50%;
   outline: 0;
+}
+
+form {
+  display: flex;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-clr);
+  margin-bottom: 20px;
+}
+
+.subscribe input {
+  width: 358px;
+  height: 50px;
+  left: 815px;
+  top: 2787px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
 }

@@ -1,15 +1,4 @@
-ul {
-  list-style-type: none;
-}
-
-a {
-  transition: var(--transition--);
-}
-
-.section {
-  margin: auto;
-  width: 1600px;
-}
+/* Index */
 
 .global-container {
   display: flex;
@@ -175,4 +164,23 @@ a {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+}
+
+/* Portofolio */
+
+.main-navigation .active-portofolio {
+  color: var(--third-clr);
+  position: relative;
+}
+
+.main-navigation .active-portofolio:hover::after,
+.main-navigation .active-portofolio:focus::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background-color: var(--third-clr);
+  top: 46px;
+  left: 0;
+  border-radius: 2px;
 }
