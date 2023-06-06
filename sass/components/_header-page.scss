@@ -23,19 +23,18 @@
 .navigation_link--active-link {
   color: var(--third-clr);
   position: relative;
-}
 
-.navigation_link--active-link:hover::after,
-.navigation_link--active-link:focus::after {
-  content: "";
-  position: absolute;
-  height: 4px;
-  width: 100%;
-  background-color: var(--third-clr);
-  top: 46px;
-  left: 0;
-  border-radius: 2px;
-}
+  &:hover::after,
+  &:focus::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background-color: var(--third-clr);
+    top: 46px;
+    left: 0;
+    border-radius: 2px;
+  }
 
 .navigation_link {
   display: flex;
@@ -65,8 +64,8 @@
   position: relative;
 }
 
-.logo .logo_home-button:hover,
-.logo .logo_home-button:focus {
+.logo .logo--home-button:hover,
+.logo .logo--home-button:focus {
   color: var(--third-clr);
 }
 
@@ -88,13 +87,13 @@
   flex-grow: 1;
 }
 
-.global-header .logo_home-button {
+.global-header .logo--home-button {
   font-family: Raleway, sans-serif;
   font-size: 27px;
   font-weight: 700;
   color: #000000;
 }
-.global-header .logo_button {
+.global-header .logo--button {
   color: var(--third-clr);
 }
 .global-header a.navigation_contact--mail {
