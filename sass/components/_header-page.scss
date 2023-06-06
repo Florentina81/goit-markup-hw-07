@@ -20,8 +20,6 @@
    }
 }
 
-
-
 .navigation_link--active-link {
   color: var(--third-clr);
   position: relative;
@@ -43,7 +41,8 @@
   justify-content: space-between;
   gap: 50px;
   position: relative;
-}
+  }
+
 
 .logo {
   flex-basis: 238px;
@@ -108,10 +107,11 @@
   letter-spacing: 0.02em;
   white-space: nowrap;
   outline: 0;
-}
-.global-header a.navigation_contact--mail:hover,
-.global-header a.navigation_contact--mail:focus {
-  color: var(--third-clr);
+
+  &:hover,
+  &focus {
+    color: var(--third-clr);
+  }
 }
 
 .global-header a.navigation_contact--mail:hover::after,
@@ -120,7 +120,7 @@
   position: absolute;
   height: 4px;
   width: 100%;
-  background-color: var(--third-clr);
+  background-color: red;
   top: 46px;
   left: 0;
   border-radius: 2px;
