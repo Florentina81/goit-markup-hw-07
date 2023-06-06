@@ -9,16 +9,18 @@
   padding: 24px 0;
   background: var(--primary-clr);
   border-bottom: 1px solid #e5e5e5;
-}
 
-.global-header a {
-  color: var(--secondary-clr);
+   a {
+    color: var(--secondary-clr);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
+   }
 }
+
+
 
 .navigation_link--active-link {
   color: var(--third-clr);
