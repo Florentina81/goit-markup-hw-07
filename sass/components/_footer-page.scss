@@ -4,6 +4,7 @@
   font-size: 27px;
   font-weight: 700;
 }
+
 .global-footer .home-button .button {
   color: var(--primary-clr);
 }
@@ -13,6 +14,7 @@
   color: var(--third-clr);
   transition: var(--transition--);
 }
+
 .footer-flex {
   display: flex;
   align-items: center;
@@ -23,29 +25,28 @@
 .global-footer {
   background: var(--dark-gray-section-clr);
   padding: 0;
-}
 
-.global-footer a {
-  font-style: normal;
-  color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 0.8;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
+  & a {
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.8;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+  }
 
-.global-footer p {
-  display: flex;
-
-  font-style: normal;
-  color: var(--primary-clr);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 0.8;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  margin-top: 28px;
+  & p {
+    display: flex;
+    font-style: normal;
+    color: var(--primary-clr);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.8;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    margin-top: 28px;
+  }
 }
 
 address a:hover,
@@ -119,32 +120,32 @@ form {
 .subscribe {
   display: flex;
   flex-direction: column;
-}
 
-.subscribe label {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-clr);
-  margin-bottom: 20px;
-}
+  &_label {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-clr);
+    margin-bottom: 20px;
+  }
 
-.subscribe input {
-  width: 358px;
-  height: 50px;
-  left: 815px;
-  top: 2787px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0.1);
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
+  &_input {
+    width: 358px;
+    height: 50px;
+    left: 815px;
+    top: 2787px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
 }

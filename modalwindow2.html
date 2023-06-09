@@ -19,20 +19,26 @@
   <body>
     <header class="global-header section">
       <div class="container global-container">
-        <div class="logo-container">
-          <a href="index.html" class="home-button"
-            ><span class="button">Web</span>Studio</a
+        <div class="logo">
+          <a href="index.html" class="logo--home-button"
+            ><span class="logo--button">Web</span>Studio</a
           >
         </div>
-        <div class="super-nav-class">
-          <nav class="main-navigation">
-            <a href="./index.html" class="active-studio">Studio</a>
-            <a href="portfolio.html" class="active">Portfolio</a>
-            <a href="Contacts" class="active">Contacts</a>
+        <div class="navigation">
+          <nav class="navigation_link">
+            <a href="./index.html" class="navigation_link--link-active"
+              >Studio</a
+            >
+            <a href="./portofolio.html" class="navigation_link--link"
+              >Portfolio</a
+            >
+            <a href="#Contacts" class="navigation_link--link">Contacts</a>
           </nav>
-          <ul class="contact">
+          <ul class="navigation_contact">
             <li>
-              <a href="info@devstudio.com" class="mail"
+              <a
+                href="mailto:info@devstudio.com"
+                class="navigation_contact--mail"
                 ><svg>
                   <use
                     href="./icons/symbol-defs.svg#icon-envelope-hover"
@@ -41,7 +47,7 @@
               </a>
             </li>
             <li>
-              <a href="tel:+12127724150" class="phone-number"
+              <a href="tel:+12127724150" class="navigation_contact--phone"
                 ><svg>
                   <use
                     href="./icons/symbol-defs.svg#icon-smartphone"
@@ -134,11 +140,11 @@
         <div class="inside-form">
           <h3>Leave your information and we'll call you back</h3>
           <form class="form">
-            <label class="form-group-active">
-              <span>Name</span>
+            <label class="form-group">
+              <span>>Name</span>
               <input id="name" name="name" type="text" />
               <svg
-                class="input-icon-active"
+                class="input-icon"
                 width="18px"
                 height="18px"
                 fill="currentColor"
@@ -175,7 +181,7 @@
                 class="input-icon"
                 width="18px"
                 height="18px"
-                fill="curentColor"
+                fill="currentColor"
                 id="icon-email-black"
                 viewBox="0 0 32 32"
               >

@@ -10,19 +10,20 @@
   background: var(--primary-clr);
   border-bottom: 1px solid #e5e5e5;
 
-   a {
+  a {
     color: var(--secondary-clr);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-   }
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
 }
 
-.navigation_link--active-link {
+.navigation_link--link-active {
   color: var(--third-clr);
   position: relative;
+  outline: 0;
 
   &:hover::after,
   &:focus::after {
@@ -35,14 +36,13 @@
     left: 0;
     border-radius: 2px;
   }
-
+}
 .navigation_link {
   display: flex;
   justify-content: space-between;
   gap: 50px;
   position: relative;
-  }
-
+}
 
 .logo {
   flex-basis: 238px;
@@ -92,11 +92,13 @@
   font-family: Raleway, sans-serif;
   font-size: 27px;
   font-weight: 700;
-  color: #000000;
+  color: var(--text-clr);
 }
+
 .global-header .logo--button {
   color: var(--third-clr);
 }
+
 .global-header a.navigation_contact--mail {
   position: relative;
   display: flex;
@@ -108,22 +110,18 @@
   white-space: nowrap;
   outline: 0;
 
-  &:hover,
-  &focus {
+  &:hover::after,
+  &focus::after {
     color: var(--third-clr);
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background-color: var(--third-clr);
+    top: 46px;
+    left: 0;
+    border-radius: 2px;
   }
-}
-
-.global-header a.navigation_contact--mail:hover::after,
-.global-header a.navigation_contact--mail:focus::after {
-  content: "";
-  position: absolute;
-  height: 4px;
-  width: 100%;
-  background-color: red;
-  top: 46px;
-  left: 0;
-  border-radius: 2px;
 }
 
 .global-header a.navigation_contact--phone {
@@ -136,23 +134,19 @@
   letter-spacing: 0.02em;
   white-space: nowrap;
   outline: 0;
-}
 
-.global-header a.navigation_contact--phone:hover,
-.global-header a.navigation_contact--phone:focus {
-  color: var(--third-clr);
-}
-
-.global-header a.navigation_contact--phone:hover::after,
-.global-header a.navigation_contact--phone:focus::after {
-  content: "";
-  position: absolute;
-  height: 4px;
-  width: 100%;
-  color: red;
-  top: 46px;
-  left: 0;
-  border-radius: 2px;
+  &:hover::after,
+  &:focus::after {
+    color: var(--third-clr);
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background-color: var(--third-clr);
+    top: 46px;
+    left: 0;
+    border-radius: 2px;
+  }
 }
 
 .navigation_contact .navigation_contact--mail svg {
@@ -166,4 +160,3 @@
   height: 16px;
   margin-right: 10px;
 }
-

@@ -29,17 +29,17 @@ h2 {
 .main-customers-container .customers-container svg {
   width: 106px;
   height: 60px;
+
+  &:focus,
+  &:hover {
+    color: var(--third-clr);
+    cursor: pointer;
+  }
 }
 
 .main-customers-container .customers-container:hover,
 .main-customers-container .customers-container:focus {
   color: var(--third-clr);
   border: 1px solid var(--third-clr);
-  cursor: pointer;
-}
-
-svg:focus,
-svg:hover {
-  color: var(--third-clr);
   cursor: pointer;
 }

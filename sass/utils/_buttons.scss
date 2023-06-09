@@ -14,12 +14,12 @@
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.request-button:hover,
-.request-button:focus {
-  background: var(--primary-clr);
-  color: var(--text-clr--);
+  &:hover,
+  &:focus {
+    background: var(--primary-clr);
+    color: var(--text-clr--);
+  }
 }
 
 .subscribe-btn {
@@ -41,12 +41,12 @@
   letter-spacing: 0.06em;
   color: var(--primary-clr);
   cursor: pointer;
-}
 
-.subscribe-btn:focus,
-.subscribe-btn:hover {
-  background-color: #358fd9;
-  transition: var(--transition);
+  &:hover,
+  &:focus {
+    background-color: #1463a4;
+    transition: var(--transition);
+  }
 }
 
 /* Portofolio */
@@ -63,20 +63,22 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-}
 
-.filter-section-button button:hover,
-.filter-section-button button:focus {
-  background: var(--third-clr);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  color: var(--primary-clr);
+  &:hover,
+  &:focus {
+    background: var(--third-clr);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: var(--primary-clr);
+  }
 }
 
 .active-item-filter {
   background-color: var(--third-clr);
 }
+
+/* Modal */
 
 .close-btn {
   font-size: 20px;
@@ -91,9 +93,36 @@
   position: absolute;
   top: 8px;
   right: 8px;
+
+  &:hover,
+  &:focus {
+    background: var(--text-clr--);
+    color: var(--primary-clr);
+  }
 }
-.close-btn:hover,
-.close-btn:focus {
-  background: var(--text-clr--);
+
+.btn-send {
+  background: var(--third-clr);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 80px;
+  font-family: var(--text-font-family), sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   color: var(--primary-clr);
+  outline: none;
+  border: none;
+  max-width: 200px;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background: #1b629d;
+  }
 }

@@ -3,20 +3,20 @@
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+
+  & p {
+    color: var(--secondary-clr);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
 }
 
 .second-section-flex {
   display: flex;
   justify-content: space-between;
-}
-
-.second-section p {
-  color: var(--secondary-clr);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .second-section-items-container {

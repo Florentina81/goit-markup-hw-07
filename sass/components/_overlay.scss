@@ -26,23 +26,23 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   background: var(--third-clr);
   top: 100%;
-}
 
-.item .text {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  font-family: var(--text-font-family);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.55;
-  color: var(--primary-clr);
-  letter-spacing: 0.03em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  top: 50%;
-  right: 50%;
-  transform: translate(50%, -50%);
+  & .text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-family: var(--text-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+    color: var(--primary-clr);
+    letter-spacing: 0.03em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+  }
 }
